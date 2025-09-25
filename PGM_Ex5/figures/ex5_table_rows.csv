@@ -1,0 +1,4 @@
+Iter,Proposal Change(s),Seeds,Inc. Acc. (%),Prop. Acc. (%),MeanΔ (pp),LB(1−δ),Decision
+1–5,lr/ema/warmup tweaks,6,,,≤ +0.25,< 0,Reject
+6,"weight_decay=0.001, ema_decay=0.99, warmup_epochs=0, label_smoothing=0.0, mixup=0.0, cutmix=0.0, grad_clip=0.0, _iter=1, _last_move_tag=ema, optimizer=SGD",30,56.05,61.56,+5.51,0.31,Accept
+7–10,warmup & weight_decay variations,6–30,57.45,55.88–57.28,−0.40 to −1.57,< 0,Reject

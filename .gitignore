@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+*.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and experiments
+*.log
+logs/
+wandb/
+tensorboard/
+runs/
+
+# Datasets
+data/
+autodl-tmp/PGM_Ex5/data/
+
+# Databases
+*.db
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Compiled binaries
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Build / dist
+build/
+dist/
+*.egg-info/
