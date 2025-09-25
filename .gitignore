@@ -44,4 +44,7 @@ Thumbs.db
 # Build / dist
 build/
 dist/
-*.egg-info/
+*.egg-info
+
+# System trash
+.Trash-0//
