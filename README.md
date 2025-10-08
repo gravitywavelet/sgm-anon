@@ -7,19 +7,19 @@ SGM establishes the first statistical safety layer for recursive self-modificati
 
 ![SGM Architecure](Fig1.png)
 
-1. Setup and Dependencies
+# 1. Setup and Dependencies
 The code is implemented in Python and has been tested using the libraries listed in requirement.txt.
 
 To set up your environment, follow these steps:
 
-# Clone the anonymous repository
+## Clone the anonymous repository
 git clone [https://github.com/gravitywavelet/sgm-anon.git](https://github.com/gravitywavelet/sgm-anon.git)
 cd sgm-anon
 
-# Install the required Python packages
+## Install the required Python packages
 pip install -r requirement.txt
 
-2. Reproducing Results
+# 2. Reproducing Results
 The experiments are organized into directories corresponding to the main claims and application domains discussed in the paper (Supervised Learning, Reinforcement Learning, and Black-Box Optimization).
 
 Note: Where large datasets (e.g., CIFAR-100, ImageNet-100) are used, the corresponding scripts are designed to automatically download and process the data upon first run.
@@ -56,5 +56,5 @@ python SSL/run_rl_benchmark.py --env LunarLander
 
 We recommend running the scripts within PGM_Ex4/ and PGM_Ex5/ first, as they directly validate SGM's core gate mechanism—certifying true gains and rejecting spurious ones.
 
-3. Contact
+# 3. Contact
 For technical questions regarding the implementation, please open a GitHub Issue in this repo
