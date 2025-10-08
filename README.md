@@ -1,7 +1,7 @@
 ## Reference Implementation: Statistical Gödel Machine (SGM)
 Anonymous Submission to ICLR 2025
 
-This repository contains the reference implementation for the paper: "Anonymous (2025). Safe Gated Modification for Self-Improving AI," which introduces the Statistical Gödel Machine (SGM).
+This repository contains the reference implementation for the paper: "Anonymous (2025). SGM: A STATISTICAL G¨ODEL MACHINE FOR RISK-CONTROLLED RECURSIVE SELF-MODIFICATION," which introduces the Statistical Gödel Machine (SGM).
 
 SGM establishes the first statistical safety layer for recursive self-modification in high-dimensional, stochastic AI systems. It replaces the unattainable formal proofs of improvement with statistical confidence tests, ensuring that irreversible edits are only accepted when superiority is certified at a chosen confidence level, while bounding the cumulative risk of adopting a harmful change across all rounds.
 
